@@ -1,0 +1,8 @@
+class 5
+
+froms
+Two type ka hai
+intput 
+tpye
+label
+DONE HTML

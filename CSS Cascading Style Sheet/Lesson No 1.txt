@@ -1,0 +1,38 @@
+Lesson No 1
+
+CSS 
+
+Css ka tags ko 3 Method sa use kya jata han 
+1. inline css
+2. internal css
+3. external css
+
+1. inline css
+	inline css ko kisi bhi tags ka ander use kia jata han like 
+		<p use code >Is tena</p>
+
+2. internal css
+	internal css ko <head> tag ka bad use karta han 
+	like this 
+		<head>
+	phir <style> </style> lazmi use kara phir aga ka work iska ander karta han 
+			
+			tag main tag alphabet like p or iska sath curly bracket lazmi 
+			use karta han like this 
+						
+						p{
+							use code
+									}
+3. external css
+	external css ka matlab dosri file create kar ta han
+	external css use karna ka lia folder main new file create karta han 
+	name like this 
+			ext.css
+				
+				this use is so easy like internal css
+			fisrt use tag alphabet like p or iska sath curly bracket lazmi 
+			use karta han like this 
+						
+						p{
+							use code
+									}

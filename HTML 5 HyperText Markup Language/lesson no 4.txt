@@ -1,0 +1,17 @@
+Anchor tags
+img Tags 
+
+tags
+email
+password 
+date
+file
+color
+number
+text area
+radio tag
+unqie altitude
+check box
+range
+input type reset
+

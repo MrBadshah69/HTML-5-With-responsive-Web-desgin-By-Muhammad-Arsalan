@@ -1,0 +1,19 @@
+Coures Name:Html 5 With responsive Web desgin
+
+HTML : Hyper text markup language
+CSS : Casaading styling sheet 
+js : javasricpt
+
+HTML
+Html website ka skalitan bana ka lia use hoti hai
+
+CSS
+Css website ko desgin kalia use kar ta han
+
+JAVASCRICPT
+js is a brain kisi bhi function ko ablity,power, 
+han kisi funtion ko run yani responces dena kisi
+bhi button ka wo js sa hota hai
+
+PHP
+php data ko database tak pucha ta han
