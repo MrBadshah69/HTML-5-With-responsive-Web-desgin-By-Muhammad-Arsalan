@@ -1,0 +1,67 @@
+Welcome To Second Lecture CSS
+
+	agra  kisi words ka color change karna hoto color tags use karta han
+		Like This 
+			Color:#000;		
+			
+			Black color ka lia #000 use karta han 
+			While color ka lia #fff use karta han 
+
+	agar kisi words ka backgound change karna ho to use this tag
+	
+			baackgound-color:#000;
+
+	Font size ka lia ya tag use karta han
+			like this
+					font-size:40px;
+						{ px } Pixel ko bol ta han 
+									
+	agar huma font ka font hi change karna ho to ham is tag ka use kar ta han
+				
+					font-family:bala bala ;
+									
+	or agar kisi font ko bahar sa download karta han to pala folder cerate karta han
+	like font name sa 
+	and fir style tag ma font face Tag use karta han
+		like
+			@font face
+	or font family sa link ka zarya bhi font change karta han
+	links head tag sa pala use karta han
+
+	border shapes change ka lia 
+			use this 
+					
+				border-radius:10px:
+		Boder ka lia tag 
+
+				border:1px solid #000 ;
+
+
+
+
+
+		HOME WORK
+
+
+
+	Put your name in (p tag)
+	and english tag (strong)
+	and apply (BG color)
+	Apply border radius (100px)
+	
+     
+ 
+ 
+	Apply urdu font 
+1 Al qallan
+2 al mushaf
+3 al bi nastalaeq
+4 deco type
+
+
+
+	apply english fonts 
+1 sandrella
+2 cream cake
+3 dewanibeut urdu
+4 media ventagess
