@@ -1,6 +1,18 @@
-1 p tag equal all sides 50 px margin and padding
-2 h1 tag use margin and padding top or buttom
- space 10px 
-3 h2 tag use margin and padding 
-	shorthander t50 r40 b30 l20
-4 h3 tag top buttom 100px l/R 50px
+Agar Hum paragraph ke teen tags lete hain to
+Agar styling karen Tu style ka Tag Lekar
+P tag use Karke styling Karte Hain
+to vah 3 paragraph per styling apply Ho Jaati Hai
+Agar Ham teenon paragraph per 
+alag alag styling karna chahte hain to
+Fir Ham ID ka use karte hain
+aur Agar Hamen Kisi Ki styling same rakhni 
+Ho To Ham class ka use karte hain
+old developer pahle ke time mein div
+aur Span tag use karte the
+
+ID tag use for unqiue
+And
+CLASS tag use for same
+(#)This is a sign of ID tag 
+(.)This is a sign of CLASS tag
+

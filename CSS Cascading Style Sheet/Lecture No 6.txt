@@ -1,0 +1,15 @@
+new topic
+Units
+1. Pixels
+Agar ham baat karta han pixel 
+2. Em
+	em ka use parent ki px sa multi* karta han like
+	42px han EM apna parent sa * karta  ha 
+	to 2 karoga to Do defa * kardega 82 
+3. REM (ROOT)
+	rem root ka font size sa * karta han 
+	root hamera html han 
+4. VH and VW
+         VEIW WEIHT (VW)    VIEW HEIGTH (VH)
+5. (MWH) MEXIMIM WITH AND HEIGHT
+

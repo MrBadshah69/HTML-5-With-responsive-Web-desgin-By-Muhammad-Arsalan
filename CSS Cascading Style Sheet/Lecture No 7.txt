@@ -1,0 +1,27 @@
+Four postion type 
+
+Apply css per or hoti html
+
+Html Css ma 5 positions hoti han
+Positions
+
+1. Static (not change style and postion)
+2. Relative (use change position)
+       Apply all postion and change all postion
+4. Absolute 
+          Absolute perent tag ki postion select karta han agr perent by default static hoa han is lia perent tag unstatic karta han 
+          Like 
+                  Relative position deta han 
+                  To Child tag 
+6. Fixed
+7. Sticky.
+Hoti 4 han
+
+3d z index hota
+
+Mera pass jo bhi html ka tag unko ham log static postion kata ha 
+Unki postion change nhi hoti 
+Iska uper koi style apply nhi hota 
+
+Html ka all tag by default
+Static hota han

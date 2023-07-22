@@ -1,0 +1,6 @@
+1 p tag equal all sides 50 px margin and padding
+2 h1 tag use margin and padding top or buttom
+ space 10px 
+3 h2 tag use margin and padding 
+	shorthander t50 r40 b30 l20
+4 h3 tag top buttom 100px l/R 50px
