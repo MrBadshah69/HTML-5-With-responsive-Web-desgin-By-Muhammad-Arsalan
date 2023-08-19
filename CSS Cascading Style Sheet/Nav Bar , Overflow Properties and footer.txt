@@ -1,0 +1,133 @@
+Navigation bar
+
+Paragraph ke liye
+                             <p></p> 
+                                           ka tag use karte hain like artical aur niche kaise ke liye footer ka use karte hain aur upar ke hisse ke liye header ka use karte hain ISI tarike se navigation bar ke liye Ham 
+         <nav></nav> 
+                               tag use karte hain
+
+Next step 
+
+Navigation bar mein jaise ke home service contact about portfolio etc
+Sabko add karne ke liye Ham unorder list ka use karte hain aur uske andar list item tag use karte hain     
+                  Like This 
+                                  <nav>
+                                  <ul>
+                                  <li><\li>
+                                  <li><\li>
+                                  <li><\li>
+
+</ul>
+</nav>      
+
+Ismein home about service contact us likhane se pahle ham
+                    <a> 
+                          tag use karte hain taka dusre page se link kara saken text hum a tag ke andar likhate Hain
+           
+Note line:
+                 HTML page ka by default margin selected hota hai ise Ham bilkul corner se lagane ke liye CSS mein style ke tag mein body ke tag ka margin 0 karte Hain 
+                 Like This
+                                <Style>
+                                Body{
+                                Margin:0;
+}
+
+
+</style>
+
+End
+
+Point
+
+FIR Ham ul tag ka bhi margin zero karte Hain
+Iske bad sab Conner se lag jata hai
+Humne all order list use ki hai to isliye text pe point bhi aaenge bullet points for remove karne ke liye Ham ul ke tag mein list style type None karte Hain aur text ke niche line hatane ke liye Ham tag decoration ko bhi none karte Hain
+
+
+Overflow Properties:
+
+Hamen agar text ko right side per lekar Jana ho to uske liye Ham use karte hain margin padding use Nahin karte marjan aur text me is spacing dene ke liye use karte hain
+Right side per Le jaane ke liye Ham float right ka use karte hain
+Float right karne ke baad hamara Sara text sab gayab ho jata hai fload right humne ul ki CSS mein use karte hain
+Li per float left karo or phir 
+Bhi nhi aye ga 
+
+Iska ham overflow ki properties use karta han
+Nav ka tag ma ise karta han 
+Like This 
+
+             nav
+
+{ background-color: #2D2E2D; overflow: hidden;
+
+}
+
+
+
+
+And all style css here
+
+
+
+
+
+<style>
+
+body {
+
+margin: 0;
+
+background-color: darkgrey;
+
+}
+
+nav
+
+{ background-color: #2D2E2D; overflow: hidden;
+
+}
+
+ul
+
+{
+
+margin: 0;
+
+list-style-type: none;
+
+float: right; padding-right: 160px;
+
+}
+
+li {
+
+float: left;
+
+}
+
+a
+{
+display: block; color: burlywood;
+text-decoration: none; padding: 16px 10px
+}
+.logo {
+
+float: left; margin: 16px 30px; color: #ED2224;
+
+}
+
+a:hover:not(.active) { background-color: wheat;
+
+}
+
+a.active { background-color: rgb(221, 105, 80);
+
+}
+
+footer {
+
+text-align: center; background-color: black;
+
+color: white; margin-top: 835px;
+}
+</style>

@@ -1,0 +1,12 @@
+Display
+
+1. Inline 
+               Inline Display properties main page ki pori ak lata han is per height width apply nhi Hoti 
+2. Block
+               Block display properties main jitna text hota tag utni hi jaga leta han or is per height width dono apply ho sakti han
+3. Inline-block
+                          Inline-block display properties main page ki pori ak line to leta han lekin block tag ki waja sa is per height width dono apply ho sakti han 
+4. None 
+               Display none means display visibility han Lekin display none or visibility none dono ka Kam ak hi han but display none ma tag aisa hidden hota jasa koi tag tha hi nhi like bad ma Jo div hoa pala ajaye ga 
+               Or visibility none ma koi bhi tag move nhi hota 
+               

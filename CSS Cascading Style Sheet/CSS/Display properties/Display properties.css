@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: darkgray;
+}
+nav {
+    background-color: #2D2E2D;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    float: right;
+    padding-right: 160px;
+}
+
+li {
+    float: left;
+
+}
+
+a:not(.logo-name) {
+    display: block;
+    color: burlywood;
+    text-decoration: none;
+    padding: 16px 10px
+}
+
+
+
+.logo {
+    float: left;
+    margin: 16px 30px;
+    color: #ED2224;
+}
+
+a:hover:not(.active) {
+    background-color: wheat;
+}
+
+a.active {
+    background-color: rgb(221, 105, 80);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 835px;
+}
+
+.box1 {
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.box2 {
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.box3 {
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.box4 {
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.main {
+    display: inline-block;
+    margin: 50px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-sec {
+    display: inline;
+
+
+}
+
+.box5 {
+    display: inline;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.box6 {
+    display: inline;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.box7 {
+    display: inline;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.box8 {
+    display: inline;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}

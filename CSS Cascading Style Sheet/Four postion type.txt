@@ -5,7 +5,11 @@ Apply css per or hoti html
 Html Css ma 5 positions hoti han
 Positions
 
-1. Static (not change style and postion)
+1. Static 
+	default position 
+	(The top, right, bottom, left, 
+	and z-index properties have no effect)
+	(not change style and postion)
 2. Relative (use change position)
        Apply all postion and change all postion
 4. Absolute 
