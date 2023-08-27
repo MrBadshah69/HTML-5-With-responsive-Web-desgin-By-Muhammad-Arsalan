@@ -1,0 +1,11 @@
+Variable use to store data
+Let /var/ coust/
+
+Document.wirte("Arsalan")
+
+var CourseName = "Web Designing";
+document.write("<br><b>Course Name:</b>" + CourseName);
+
+
+
+

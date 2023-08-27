@@ -1,0 +1,13 @@
+
+	 (JavaScript)
+1.Variable
+2.Data type
+3.User input
+4.operators
+5.Conditioner statement(two types if/else-Switch case)
+6.Lops and it's types
+7.Aery (Ds-aery-and it's types)
+8.Functions (parameter ary/arrow functions)
+9.Object
+10.Doom (verification-manipulation)
+11.todoapp
