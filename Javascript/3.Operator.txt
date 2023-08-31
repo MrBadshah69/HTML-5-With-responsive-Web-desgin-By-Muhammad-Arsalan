@@ -1,0 +1,30 @@
+•Assignment Operators
+•Arithmetic Operators
+•Comparison Operators
+•Logical Operators
+•Bitwise Operators
+•String Operators
+•Other Operators
+
+
+Operator		Name				Example
+=		Assignment operator		a = 7; // 7
++=		Addition assignment		a += 5; // a = a + 5
+-=		Subtraction Assignment		a -= 2; // a = a - 2
+*=		Multiplication Assignment	a *= 3; // a = a * 3
+/=		Division Assignment		a /= 2; // a = a / 2
+%=		Remainder Assignment		a %= 2; // a = a % 2
+**=		Exponentiation Assignment	a **= 2; // a = a**2
+
+
+1.Assignment operator
+
+Operator	    Name			Example
++		Addition			 x + y
+-		Subtraction			 x - y
+*		Multiplication			 x * y
+/		Division			 x / y
+%		Remainder			 x % y
+++		Increment (increments by 1)	 ++x or x++
+--		Decrement (decrements by 1)	 --x or x--
+**		Exponentiation (Power)		 x ** y
