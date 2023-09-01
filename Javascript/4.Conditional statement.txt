@@ -1,0 +1,14 @@
+To type of conditional statement:
+1.Swtch Case
+2.if esle
+
+
+If(codition){
+
+
+Statement ->ture
+}esle{
+
+Statement ->false
+}
+

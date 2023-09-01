@@ -28,3 +28,35 @@ Operator	    Name			Example
 ++		Increment (increments by 1)	 ++x or x++
 --		Decrement (decrements by 1)	 --x or x--
 **		Exponentiation (Power)		 x ** y
+
+2.Arithmetic Operators
+
+Operator	Name				Example
++		Addition			x + y
+-		Subtraction			x - y
+*		Multiplication			x * y
+/		Division			x / y
+%		Remainder			x % y
+++		Increment (increments by 1)	++x or x++
+--		Decrement (decrements by 1)	--x or x--
+**		Exponentiation (Power)		x ** y
+
+3.Comparison Operators
+
+
+Operator				Description											Example
+==		Equal to: returns true if the operands are equal									x == y
+!=		Not equal to: returns true if the operands are not equal								x != y
+===		Strict equal to: true if the operands are equal and of the same type							x === y
+!==		Strict not equal to: true if the operands are equal but of different type or not equal at all				x !== y
+>		Greater than: true if left operand is greater than the right operand							x > y
+>=		Greater than or equal to: true if left operand is greater than or equal to the right operand				x >= y
+<		Less than: true if the left operand is less than the right operand							x < y
+<=		Less than or equal to: true if the left operand is less than or equal to the right operand				x <= y
+
+4.Logical Operators
+
+Operator			Description								Example
+&&		Logical AND: true if both the operands are true, else returns false			x && y
+||		Logical OR: true if either of the operands is true; returns false if both are false	x || y
+!		Logical NOT: true if the operand is false and vice-versa.				  !x
