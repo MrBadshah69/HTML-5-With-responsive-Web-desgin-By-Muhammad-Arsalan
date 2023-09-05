@@ -1,0 +1,14 @@
+Three types of if 
+
+If else.
+If else leder.
+Nasdet if esle.
+
+
+Blindin functions 
+
+tofixed 
+This use is -pare % value 
+
+
+Multiple if's

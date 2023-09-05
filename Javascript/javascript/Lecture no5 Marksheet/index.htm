@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Marksheet</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+            color: #fff;
+            background-color: #343a40;
+            margin-top: 10px;
+            border: 1px solid #343a40;
+            border-radius: 50px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Marksheet</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div class="container">
+        <script>
+            ////////////////////////////////////// SIGIN
+            var name = prompt("Enter Sigin Name");
+            var email = prompt("Enter Sigin email");
+            var contact = prompt("Enter Sigin contact");
+            var pass = prompt("Enter Sigin password");
+            var cpass = prompt("Enter Sigin current password");
+
+            if ((pass == cpass)) {
+
+
+                ////////////////////////////////////// LOGIN
+                var emaillog = contact = prompt("Enter login email or phone");
+                var passlog = prompt("Enter login Password");
+
+
+                if ((email == emaillog) && (pass == passlog)) {
+
+                    document.write("<h1>Welcome to your Marksheet</h1><br><br>");
+
+
+
+                    ///////////////////// Marksheet
+
+
+                    let eng = parseFloat(prompt("Enter your english Marks"));
+                    let urd = parseFloat(prompt("Enter your Urdu Marks"));
+                    let Com = parseFloat(prompt("Enter your Computer Marks"));
+                    let Mat = parseFloat(prompt("Enter your Maths Marks"));
+                    let Che = parseFloat(prompt("Enter your Chemistry Marks"));
+                    let Pyh = parseFloat(prompt("Enter your Pyhsics Marks"));
+                    let Isl = parseFloat(prompt("Enter your Islamyiat Marks"));
+
+                    let obaintedMarks = eng + urd + Com + Mat + Che + Pyh + Isl;
+
+                    let perc = (obaintedMarks / 1100) * 100;
+
+                    document.write("English Marks:" + eng + "<br> Urdu Marks:" + urd + "<br>Computer Marks:" + Com + "<br>Maths Marks:" + Mat + "<br>Chemistry Marks:" + Che + "<br>Pyhsics Marks:" + Pyh + "<br>Islamyiat Marks:" + Isl + "<br>")
+                    document.write("<b>Obainted Marks:</b>" + obaintedMarks);
+                    document.write("<br><b>Percentage:</b>" + perc.toFixed(1) + "%");
+
+
+                    if (perc < 100 && perc > 80) {
+
+                        document.write("<br> <b>Your Grade is A+:</b>")
+                        document.write("  Outstanding of Marks")
+
+                    }
+
+                    if (perc < 79 && perc > 70) {
+                        document.write("<br><b>Your Grade is A:</b>")
+                        document.write("  Excellent")
+
+                    }
+
+                    if (perc < 69 && perc > 60) {
+                        document.write("<br><b>Your Grade is B:</b>")
+                        document.write("  Very good")
+                    }
+
+                    if (perc < 59 && perc > 50) {
+                        document.write("<br><b>Your Garde is C:</b>")
+                        document.write("  Good")
+                    }
+                    if (perc < 49 && perc > 40) {
+                        document.write("<br><b>Your Grade is D:</b>")
+                        document.write("  Fair")
+
+                    }
+                    if (perc < 39 && perc > 30) {
+                        document.write("<br><b>Your Garde is E:</b>")
+                        document.write("  Satisfactory")
+                    }
+
+                } else {
+                    document.write("<h1>Invalid Your Email & Password</h>")
+                }
+
+            }
+
+
+
+
+
+
+
+
+        </script>
+    </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
