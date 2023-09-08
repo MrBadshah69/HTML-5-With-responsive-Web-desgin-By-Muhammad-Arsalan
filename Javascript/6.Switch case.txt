@@ -1,0 +1,14 @@
+Two condition of -Switch case
+= And OR 
+
+Statement
+
+switch (key) { 
+    case value:
+
+       break;
+
+        default:
+
+    break
+}
