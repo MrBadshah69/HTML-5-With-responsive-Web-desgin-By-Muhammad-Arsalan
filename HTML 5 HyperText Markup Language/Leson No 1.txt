@@ -1,19 +1,15 @@
 Coures Name:Html 5 With responsive Web desgin
 
-HTML : Hyper text markup language
+HTML: Hypertext markup language
 CSS : Casaading styling sheet 
-js : javasricpt
+js: javascript
 
 HTML
-Html website ka skalitan bana ka lia use hoti hai
+HTML website ka skeleton banane ke liye use Hoti Hai like structure etc
 
 CSS
-Css website ko desgin kalia use kar ta han
+CSS ghar ko design yani website ko designing karne ke liye istemal hoti hai
 
 JAVASCRICPT
-js is a brain kisi bhi function ko ablity,power, 
-han kisi funtion ko run yani responces dena kisi
-bhi button ka wo js sa hota hai
-
-PHP
-php data ko database tak pucha ta han
+JavaScript is a scripting language used to develop web pages.
+JavaScript basically Ek brain ka kam karti hai
