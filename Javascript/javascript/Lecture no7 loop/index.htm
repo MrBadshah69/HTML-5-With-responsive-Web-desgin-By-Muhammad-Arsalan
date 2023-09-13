@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture no 7 loop</title>
+</head>
+<style>
+    ul ,h2{
+        text-align: center;
+        
+    }
+    body{
+        background-color: gray;
+    }
+    
+</style>
+
+<body>
+    <script>
+
+            var Leapyear;
+
+            var count =0
+
+        for (Leapyear = 2006; Leapyear <= 2023; Leapyear++) {
+            
+            count++
+            if (Leapyear%4==0) {
+                document.write("<ul><li><u>Its a Leap Year--------------:"+Leapyear+"<br>" +"</li></ul></u>");
+            } else {
+                document.write("<ul><li>Its not a Leap Year----------"+ Leapyear +"<br>"+"</li></ul>");
+            }
+            
+        }
+
+        document.write("<h2>Total Leap year "+ count +"</h2>")
+    </script>
+</body>
+
+</html>

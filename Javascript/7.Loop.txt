@@ -1,0 +1,20 @@
+Loop use for repeat name 
+
+Loop definition
+In programming, loops are used to repeat a block of code.
+
+
+1.Pre level loop
+        y loop
+        For loop
+Use of for use 
+for (intialization; condition; inc/dec ){
+
+//statements
+
+}
+
+
+
+
+Post level 
