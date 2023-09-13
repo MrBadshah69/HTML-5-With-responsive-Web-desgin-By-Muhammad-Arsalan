@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACSii To char And Char to Ascii decimal</title>
+    <style>
+      h3 ,h2{
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      //////////////Char To Decimal///////////////////////////////////////////////
+      var name = prompt("Enter your Alphate");
+
+      let convertvalueUppercase = name.charCodeAt(0)- 32;
+      let convertvalueLowercase = name.charCodeAt(0);
+
+      document.write(
+        "<h3>Value Of Uppercase   :    " + convertvalueUppercase + "</h3>"
+      );
+      document.write("<br><br><br><br><br><br>")
+      document.write(
+        "<h3>Value Of Lowercase   :    " + convertvalueLowercase + "</h3>"
+      );
+      document.write("<br><br><br><br><br><br>")
+      /////////////////////////Ascii Decimal To Char///////////////////////////////////
+
+      var names =parseFloat(  prompt("Enter Your Ascii Decimal Value"));
+
+      let convertdecimaltochar = String.fromCharCode(names);
+      document.write("<h2>" +
+        "The number called from your side❤   :    " +
+          names +
+          "<br>"+
+          "     character result =   :   " +
+          convertdecimaltochar +
+          "</h2>"
+      );
+    </script>
+  </body>
+</html>

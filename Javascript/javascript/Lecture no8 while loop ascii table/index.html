@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While loop Print Ascii table And char A to z</title>
+  </head>
+  <body>
+    <script>
+      var convert = 65;
+      while (convert <= 90) {
+        document.write(
+          "<ul><li>ASCII TABLE NUMBER -------" +
+            convert +
+            "------ CHAR   --------  " +
+            String.fromCharCode(convert) +
+            "</li></ul><br>"
+        );
+
+        convert++;
+      }
+    </script>
+  </body>
+</html>
