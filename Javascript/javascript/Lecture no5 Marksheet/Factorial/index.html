@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatorial</title>
+  </head>
+<style>
+  h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20% 0;
+
+  }
+</style>
+  <body>
+    <script>
+      num=parseFloat(prompt("ENTER YOUR FATORIAL NUMBER "));        
+      var fatorial = 1;
+      var f = 1;
+      while (f<num) {
+        f++
+
+        fatorial= fatorial*f;
+      }
+      document.write("<h2>Your number is------"+f+ "<br><br>Your Fatoiral----"+fatorial +"<br></h2>");
+      </script>
+  </body>
+</html>
