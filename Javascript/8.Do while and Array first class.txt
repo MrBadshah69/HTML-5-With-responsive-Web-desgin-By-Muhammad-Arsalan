@@ -1,0 +1,14 @@
+Array
+
+Array is katar
+Create data stacture
+
+Poszting start is 0
+
+Array main ya use karta ha ["Arsalan , Resume,"]
+
+
+Do while
+
+Saquce of character is called string
+
